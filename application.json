@@ -9,7 +9,7 @@
       "isDefault": false
     },
     {
-      "id": "Home",
+      "id": "HomeBookReader",
       "isDefault": true
     },
     {
@@ -18,6 +18,10 @@
     },
     {
       "id": "Curator Profile Edit",
+      "isDefault": false
+    },
+    {
+      "id": "HomeCurator",
       "isDefault": false
     }
   ],

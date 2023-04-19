@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Home",
-    "slug": "home",
+    "name": "HomeBookReader",
+    "slug": "homebookreader",
     "layouts": [
       {
         "viewMode": false,
@@ -543,7 +543,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Home",
+        "id": "HomeBookReader",
         "deleted": false,
         "policies": [],
         "userPermissions": []
