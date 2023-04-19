@@ -30,6 +30,7 @@
               "resetFormOnClick": false,
               "boxShadow": "none",
               "widgetName": "Button1CopyCopy",
+              "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW')}}",
               "buttonColor": "#db2777",
               "displayName": "Button",
               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -44,7 +45,11 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 12.5625,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
               "leftColumn": 46,
               "dynamicBindingPathList": [
                 {
@@ -867,6 +872,7 @@
                               "resetFormOnClick": false,
                               "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
                               "widgetName": "Button1",
+                              "onClick": "{{navigateTo('Bookreader Profile Edit', {}, 'SAME_WINDOW')}}",
                               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                               "displayName": "Button",
                               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -881,7 +887,11 @@
                               "hideCard": false,
                               "animateLoading": true,
                               "parentColumnSpace": 5.5035400390625,
-                              "dynamicTriggerPathList": [],
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
                               "leftColumn": 0,
                               "dynamicBindingPathList": [
                                 {

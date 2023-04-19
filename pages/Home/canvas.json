@@ -447,6 +447,7 @@
               "resetFormOnClick": false,
               "boxShadow": "none",
               "widgetName": "Button1",
+              "onClick": "{{navigateTo('Bookreader', {}, 'SAME_WINDOW')}}",
               "buttonColor": "#db2777",
               "displayName": "Button",
               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -461,7 +462,11 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 12.5625,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
               "leftColumn": 55,
               "dynamicBindingPathList": [
                 {
