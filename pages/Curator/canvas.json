@@ -1435,7 +1435,7 @@
                                       "leftColumn": 16,
                                       "shouldTruncate": false,
                                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                                      "text": "Author(test)",
+                                      "text": "Author",
                                       "key": "id7x6tyisw",
                                       "isDeprecated": false,
                                       "rightColumn": 26,
