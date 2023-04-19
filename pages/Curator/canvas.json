@@ -395,8 +395,8 @@
                                 "paragraph",
                                 "label"
                               ],
-                              "topRow": 21,
-                              "bottomRow": 25,
+                              "topRow": 22,
+                              "bottomRow": 26,
                               "parentRowSpace": 10,
                               "type": "TEXT_WIDGET",
                               "hideCard": false,
@@ -505,8 +505,8 @@
                                 "paragraph",
                                 "label"
                               ],
-                              "topRow": 17,
-                              "bottomRow": 21,
+                              "topRow": 18,
+                              "bottomRow": 22,
                               "parentRowSpace": 10,
                               "type": "TEXT_WIDGET",
                               "hideCard": false,
@@ -545,8 +545,10 @@
                               "renderMode": "CANVAS",
                               "isLoading": false,
                               "responsiveBehavior": "fill",
+                              "originalTopRow": 17,
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                               "maxDynamicHeight": 9000,
+                              "originalBottomRow": 21,
                               "fontSize": "0.875rem",
                               "minDynamicHeight": 4
                             },
@@ -614,7 +616,7 @@
                                 "label"
                               ],
                               "topRow": 12,
-                              "bottomRow": 16,
+                              "bottomRow": 17,
                               "parentRowSpace": 10,
                               "type": "TEXT_WIDGET",
                               "hideCard": false,
@@ -653,8 +655,10 @@
                               "renderMode": "CANVAS",
                               "isLoading": false,
                               "responsiveBehavior": "fill",
+                              "originalTopRow": 12,
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                               "maxDynamicHeight": 9000,
+                              "originalBottomRow": 16,
                               "fontSize": "1rem",
                               "minDynamicHeight": 4
                             },
@@ -1431,7 +1435,7 @@
                                       "leftColumn": 16,
                                       "shouldTruncate": false,
                                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                                      "text": "Author",
+                                      "text": "Author(test)",
                                       "key": "id7x6tyisw",
                                       "isDeprecated": false,
                                       "rightColumn": 26,
@@ -1642,7 +1646,7 @@
               "originalTopRow": 21,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 61,
+              "originalBottomRow": 73,
               "minDynamicHeight": 15
             }
           ]
