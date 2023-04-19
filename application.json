@@ -1,14 +1,25 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Bookreader Profile Edit",
       "isDefault": true
+    },
+    {
+      "id": "Bookreader",
+      "isDefault": false
+    },
+    {
+      "id": "Page3",
+      "isDefault": false
     }
   ],
   "viewMode": false,
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#FFEFDB",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
