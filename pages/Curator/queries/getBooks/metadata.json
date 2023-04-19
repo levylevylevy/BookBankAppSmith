@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Bookreader_Userid",
+    "name": "getBooks",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/br/bookreaders/userid"
+        "url": "web:4000/b/books"
       },
       "invalids": [],
       "messages": [],
@@ -36,7 +36,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -47,7 +47,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Curator_Bookreader_Userid",
+  "id": "Curator_getBooks",
   "deleted": false,
-  "gitSyncId": "644016369134dc625e700df8_64402a0e9134dc625e700e21"
+  "gitSyncId": "64403f62d0a1174d0fa64349_64404c4496ba1b6a0044d220"
 }
