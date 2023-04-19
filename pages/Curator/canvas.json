@@ -1117,7 +1117,7 @@
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "9g3er2musd",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "defaultTab": "Tab 1",
+              "defaultTab": "Profile",
               "shouldShowTabs": true,
               "minWidth": 450,
               "tabsObj": {
