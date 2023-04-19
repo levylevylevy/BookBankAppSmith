@@ -1,0 +1,3 @@
+{
+	"curatorID": {{CuratorID.text}}
+}
