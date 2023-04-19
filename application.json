@@ -11,6 +11,14 @@
     {
       "id": "Home",
       "isDefault": true
+    },
+    {
+      "id": "Curator",
+      "isDefault": false
+    },
+    {
+      "id": "Curator Profile Edit",
+      "isDefault": false
     }
   ],
   "viewMode": false,

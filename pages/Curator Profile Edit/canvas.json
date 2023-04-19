@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Bookreader Profile Edit",
-    "slug": "bookreader-profile-edit",
+    "name": "Curator Profile Edit",
+    "slug": "curator-profile-edit",
     "layouts": [
       {
         "viewMode": false,
@@ -574,7 +574,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Bookreader Profile Edit",
+        "id": "Curator Profile Edit",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -585,5 +585,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "644016369134dc625e700df8_644016369134dc625e700dfa"
+  "gitSyncId": "644016369134dc625e700df8_64402aa29134dc625e700e25"
 }
