@@ -1,0 +1,3 @@
+{
+	"bookID": {{BookID.text}}
+}
