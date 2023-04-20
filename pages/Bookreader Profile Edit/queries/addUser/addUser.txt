@@ -1,0 +1,11 @@
+{
+  "bookreader_id" : {{user_id_input.text}},
+  "bookreader_first" : {{first_input.text}},
+  "bookreader_last" : {{last_name_input.text}},
+  "bookreader_email" : {{email_input.text}},
+  "bookreader_username" : {{Username_input.text}},
+  "bookreader_password" : {{Password.text}},
+  "bookreader_city" : {{city_input.text}},
+  "bookreader_state" : {{state_input.text}},
+  "bookreader_zip": {{zip_input.text}}
+}

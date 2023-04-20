@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "addBook",
+    "name": "addUser",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/b/newbook"
+        "url": "web:4000/br/newbookreaders"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Curator Book Edit",
+    "pageId": "Bookreader Profile Edit",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n    \"books_id\" : {{add_bookid_input.text}},\n    \"books_first\" : {{first_input.text}},\n    \"books_last\" : {{last_input.text}},\n    \"books_pageCount\" : {{Page_Count_input.text}},\n    \"books_genre\" : \"{{genre_input.text}}\",\n    \"books_title\": {{Title.inputText}},\n    \"books_conditionOfBook\" : {{condition_form.text}},\n    \"books_inBank\" : {{inBank_form.text}},\n    \"books_isPhysical\" : {{IsPhysical_form.text}},\n    \"books_numCopies\" : {{numCopies_form.text}},\n    \"books_synopsis\" : {{synopsis_form.text}}\n}",
+      "body": "{\n  \"bookreader_id\" : {{user_id_input.text}},\n  \"bookreader_first\" : {{first_input.text}},\n  \"bookreader_last\" : {{last_name_input.text}},\n  \"bookreader_email\" : {{email_input.text}},\n  \"bookreader_username\" : {{Username_input.text}},\n  \"bookreader_password\" : {{Password.text}},\n  \"bookreader_city\" : {{city_input.text}},\n  \"bookreader_state\" : {{state_input.text}},\n  \"bookreader_zip\": {{zip_input.text}}\n}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
@@ -52,24 +52,22 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "IsPhysical_form.text",
-      "Page_Count_input.text",
-      "Title.inputText",
-      "add_bookid_input.text",
-      "condition_form.text",
+      "Password.text",
+      "Username_input.text",
+      "city_input.text",
+      "email_input.text",
       "first_input.text",
-      "genre_input.text",
-      "inBank_form.text",
-      "last_input.text",
-      "numCopies_form.text",
-      "synopsis_form.text"
+      "last_name_input.text",
+      "state_input.text",
+      "user_id_input.text",
+      "zip_input.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Curator Book Edit_addBook",
+  "id": "Bookreader Profile Edit_addUser",
   "deleted": false,
-  "gitSyncId": "64403f62d0a1174d0fa64349_64416f41547fc616f4c9724d"
+  "gitSyncId": "64403f62d0a1174d0fa64349_6441818c501fdd23af012787"
 }
