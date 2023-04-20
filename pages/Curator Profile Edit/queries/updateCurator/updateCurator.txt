@@ -1,0 +1,4 @@
+{
+	"password": {{Password.text}},
+	"curatorID": {{Curators_Table.selectedRow.CuratorID}}
+}

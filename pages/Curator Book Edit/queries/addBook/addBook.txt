@@ -1,0 +1,13 @@
+{
+	  "books_id" : {{add_bookid_input.text}},
+    "books_first" : {{first_input.text}},
+    "books_last" : {{last_input.text}},
+    "books_pageCount" : {{Page_Count_input.text}},
+    "books_genre" : {{genre_input.text}},
+    "books_title": {{Title.text}},
+    "books_conditionOfBook" : {{condition_form.text}},
+    "books_inBank" : {{inBank_form.text}},
+    "books_isPhysical" : {{IsPhysical_form.text}},
+    "books_numCopies" : {{numCopies_form.text}},
+    "books_synopsis" : {{synopsis_form.text}}
+}

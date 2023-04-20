@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Bookreader",
+    "pageId": "Bookreader BookBank",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -45,7 +45,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Bookreader_bookreaders",
+  "id": "Bookreader BookBank_bookreaders",
   "deleted": false,
   "gitSyncId": "644016369134dc625e700df8_644040309134dc625e700e4f"
 }

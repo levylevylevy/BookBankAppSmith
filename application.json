@@ -5,7 +5,7 @@
       "isDefault": false
     },
     {
-      "id": "Bookreader",
+      "id": "Bookreader BookBank",
       "isDefault": false
     },
     {
@@ -13,19 +13,11 @@
       "isDefault": true
     },
     {
-      "id": "Curator",
-      "isDefault": false
-    },
-    {
-      "id": "Curator Profile Edit",
-      "isDefault": false
-    },
-    {
       "id": "Curator Book Edit",
       "isDefault": false
     },
     {
-      "id": "Page1",
+      "id": "Curator Profile Edit",
       "isDefault": false
     }
   ],

@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Bookreader",
-    "slug": "bookreader",
+    "name": "Bookreader BookBank",
+    "slug": "bookreader-bookbank",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1282,
+          "bottomRow": 1600,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -257,9 +257,6 @@
                   "key": "tableData"
                 },
                 {
-                  "key": "primaryColumns.authorid.computedValue"
-                },
-                {
                   "key": "primaryColumns.bookid.computedValue"
                 },
                 {
@@ -267,9 +264,6 @@
                 },
                 {
                   "key": "primaryColumns.coverimage.computedValue"
-                },
-                {
-                  "key": "primaryColumns.curatorid.computedValue"
                 },
                 {
                   "key": "primaryColumns.first.computedValue"
@@ -300,9 +294,6 @@
                 },
                 {
                   "key": "primaryColumns.title.computedValue"
-                },
-                {
-                  "key": "primaryColumns.userid.computedValue"
                 }
               ],
               "needsHeightForContent": true,
@@ -340,7 +331,7 @@
                 }
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "columnUpdatedAt": 1681948101445,
+              "columnUpdatedAt": 1682009365759,
               "originalBottomRow": 50,
               "defaultSelectedRowIndices": [
                 0
@@ -360,10 +351,7 @@
                 "isphysical",
                 "coverimage",
                 "numcopies",
-                "authorid",
-                "curatorid",
-                "link",
-                "userid"
+                "link"
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
@@ -379,35 +367,6 @@
               "dynamicTriggerPathList": [],
               "borderWidth": "1",
               "primaryColumns": {
-                "authorid": {
-                  "allowCellWrapping": false,
-                  "index": 0,
-                  "width": 150,
-                  "originalId": "authorid",
-                  "id": "authorid",
-                  "alias": "authorid",
-                  "horizontalAlignment": "LEFT",
-                  "verticalAlignment": "CENTER",
-                  "columnType": "number",
-                  "textColor": "",
-                  "textSize": "0.875rem",
-                  "fontStyle": "",
-                  "enableFilter": true,
-                  "enableSort": true,
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "isCellEditable": false,
-                  "isEditable": false,
-                  "isCellVisible": true,
-                  "isDerived": false,
-                  "label": "authorid",
-                  "isSaveVisible": true,
-                  "isDiscardVisible": true,
-                  "computedValue": "{{Book_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"authorid\"]))}}",
-                  "sticky": "",
-                  "validation": {},
-                  "cellBackground": ""
-                },
                 "bookid": {
                   "allowCellWrapping": false,
                   "index": 1,
@@ -491,35 +450,6 @@
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{Book_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"coverimage\"]))}}",
-                  "sticky": "",
-                  "validation": {},
-                  "cellBackground": ""
-                },
-                "curatorid": {
-                  "allowCellWrapping": false,
-                  "index": 4,
-                  "width": 150,
-                  "originalId": "curatorid",
-                  "id": "curatorid",
-                  "alias": "curatorid",
-                  "horizontalAlignment": "LEFT",
-                  "verticalAlignment": "CENTER",
-                  "columnType": "number",
-                  "textColor": "",
-                  "textSize": "0.875rem",
-                  "fontStyle": "",
-                  "enableFilter": true,
-                  "enableSort": true,
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "isCellEditable": false,
-                  "isEditable": false,
-                  "isCellVisible": true,
-                  "isDerived": false,
-                  "label": "curatorid",
-                  "isSaveVisible": true,
-                  "isDiscardVisible": true,
-                  "computedValue": "{{Book_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"curatorid\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -813,35 +743,6 @@
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
-                },
-                "userid": {
-                  "allowCellWrapping": false,
-                  "index": 15,
-                  "width": 150,
-                  "originalId": "userid",
-                  "id": "userid",
-                  "alias": "userid",
-                  "horizontalAlignment": "LEFT",
-                  "verticalAlignment": "CENTER",
-                  "columnType": "number",
-                  "textColor": "",
-                  "textSize": "0.875rem",
-                  "fontStyle": "",
-                  "enableFilter": true,
-                  "enableSort": true,
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "isCellEditable": false,
-                  "isEditable": false,
-                  "isCellVisible": true,
-                  "isDerived": false,
-                  "label": "userid",
-                  "isSaveVisible": true,
-                  "isDiscardVisible": true,
-                  "computedValue": "{{Book_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"userid\"]))}}",
-                  "sticky": "",
-                  "validation": {},
-                  "cellBackground": ""
                 }
               },
               "key": "ai5socutiu",
@@ -873,7 +774,7 @@
                 "label"
               ],
               "topRow": 51,
-              "bottomRow": 57,
+              "bottomRow": 55,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -991,7 +892,7 @@
                 "label"
               ],
               "topRow": 58,
-              "bottomRow": 95,
+              "bottomRow": 160,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -1049,8 +950,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 63,
-              "bottomRow": 71,
+              "topRow": 61,
+              "bottomRow": 69,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -1108,8 +1009,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 58,
-              "bottomRow": 62,
+              "topRow": 56,
+              "bottomRow": 60,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -1163,7 +1064,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Bookreader_getBooks",
+              "id": "Bookreader BookBank_getBooks",
               "name": "getBooks",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -1174,7 +1075,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Bookreader",
+        "id": "Bookreader BookBank",
         "deleted": false,
         "policies": [],
         "userPermissions": []
